@@ -8,11 +8,18 @@ const App = () => {
           Sistema Financeiro
         </C.HeaderText>
       </C.Header>
+      <C.Body>
+        
+        {/* Area de Informações */}
+
+        {/* Area de Inserção */}
+
+        {/* Tabela de Itens */}
+
+      </C.Body>
     </C.Container>
 
   );
 }
 
 export default App;
-
-10m
