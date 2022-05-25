@@ -1,11 +1,12 @@
 import { useState, useEffect } from 'react';
 import * as C from './App.styles';
 import { Item } from './types/Item';
-import { Category } from './types/Category';
 import { items } from './data/items';
+import { Category } from './types/Category';
 import { categories } from './data/categories';
 import { FilterListByMonth, getCurrentMonth } from './helpers/dateFilter';
 import { TableArea } from './components/TableArea';
+import { InfoArea } from './components/InfoArea';
 
 
 
@@ -28,7 +29,7 @@ const App = () => {
       </C.Header>
       <C.Body>
         
-        {/* Area de Informações */}
+        <InfoArea />
 
         {/* Area de Inserção */}
 
