@@ -2,14 +2,11 @@ import { useState, useEffect } from 'react';
 import * as C from './App.styles';
 import { Item } from './types/Item';
 import { items } from './data/items';
-import { Category } from './types/Category';
 import { categories } from './data/categories';
 import { FilterListByMonth, getCurrentMonth } from './helpers/dateFilter';
 import { TableArea } from './components/TableArea';
 import { InfoArea } from './components/InfoArea';
 import { InputArea } from './components/InputArea';
-
-
 
 const App = () => {
 
@@ -54,7 +51,7 @@ const App = () => {
     <C.Container>
       <C.Header>
         <C.HeaderText>
-          Sistema Financeiro
+          Minhas Finanças
         </C.HeaderText>
       </C.Header>
       <C.Body>
