@@ -6,8 +6,8 @@
 <div align="center">
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Autor</a>
+  <a href="#-licença">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-autor">Autor</a>
 </div>
 
 <br> 
@@ -78,7 +78,7 @@ Ao digitar a instrução acima, automaticamente ele irá baixar todas as depend�
 
 - `node_modules` - que contêm os packages do npm que precisará para o projeto.
 
-### 🛰️ Executando o back-end
+### 🛰️ Executando o projeto
 
 Bom, agora que instalou as dependências **(dentro da pasta `expense-tracker` do projeto clonado)** ainda no terminal cmd digite a instrução abaixo para executar o projeto:
 
