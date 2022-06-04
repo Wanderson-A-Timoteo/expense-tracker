@@ -1,46 +1,137 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Logo Minhas Finanças" 
+      src=".github/logo-minhas-financas.png">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Licença</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Autor</a>
+</div>
 
-## Available Scripts
+<br> 
 
-In the project directory, you can run:
+<p align="center">
+  <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000" alt="License">
+  <img src="https://img.shields.io/github/forks/Wanderson-A-Timoteo/nlw-heat-origin?label=forks&message=MIT&color=15C3D6&labelColor=000000" alt="Forks">
+  <img src="https://img.shields.io/github/stars/Wanderson-A-Timoteo/nlw-heat-origin?label=stars&message=MIT&color=15C3D6&labelColor=000000" alt="Stars">
+</p>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 💻 Projeto
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Neste sistema podemos adicionar nossas receitas e despesas ao logo do mês e de outros meses para podermos ter um controle financeiro pessoal e assim analisar onde esta ocorrendo os maiores gastos e entre outras análises.  
+<br>
 
-### `npm test`
+### Tela do Sistema
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+    <img alt="Imagem da Tela Inicial" title="Tela Inicial" 
+    src=".github/minhas-financas.png" />
+</p>
+<br>
 
-### `npm run build`
+### Gif do Sistema Funcionando
+<p align="center">
+    <img alt="Imagem da Tela Inicial" title="Tela Inicial" 
+    src=".github/minhas-financas.gif" />
+</p>
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Esse projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [React](https://pt-br.reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Styled-Components](https://styled-components.com/)
 
-### `npm run eject`
+<br>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🔥 Executar Aplicação
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 🎇 Executando Localmente a Aplicação
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Caso você deseja executar o projeto na sua máquina local, você precisará instalar o Node.js, após a instalação, basta seguir os passos abaixo:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### 🌀 Começando...
 
-## Learn More
+Para começar, você deve simplesmente clonar o repositório do projeto na sua máquina e instalar as dependências.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### ❗️ Instalando as Dependências (via Windows):
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Abra o cmd (caso esteja utilizando o Windows) navegue até o local onde você clonou o projeto, exemplo:
+
+```sh
+C:\Users\NomeDoComputador\Documents\CloneDoProjeto
+```
+
+Quando encontrar a pasta do projeto, basta acessar a pasta `expense-tracker`. Dentro desta pasta abra digite a seguinte instrução: **(dentro da pasta `expense-tracker` do projeto clonado)**
+
+```sh
+npm install
+```
+
+Ao digitar a instrução acima, automaticamente ele irá baixar todas as dependências listadas e definidas no arquivo package.json:
+
+- `node_modules` - que contêm os packages do npm que precisará para o projeto.
+
+### 🛰️ Executando o back-end
+
+Bom, agora que instalou as dependências **(dentro da pasta `expense-tracker` do projeto clonado)** ainda no terminal cmd digite a instrução abaixo para executar o projeto:
+
+```sh
+npm start
+```
+
+Pronto! dessa forma o projeto `expense-tracker` estará rodando localmente em sua maquina, acesse:
+
+```sh
+http://localhost:3000
+```
+<br>
+
+## 🚩 Tenho Dúvidas... O que fazer?
+
+Caso tenha dúvidas sobre o código do projeto, sintam-se a vontade em abrir uma **[ISSUE AQUI](https://github.com/Wanderson-A-Timoteo/expense-tracker/issues)**. Assim que possível, responderei todas as dúvidas!
+
+<br>
+
+## 💡 Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+
+<br>
+
+## 🎆 Autor
+
+Feito com ♥ by
+
+-  [**Wanderson A. Timóteo**](https://wanderson.tk)
+
+<br>
+
+## 🤝 Agradecimentos
+
+
+<div align="center">
+  <img alt="Logo B7WEB" 
+       src=".github/logo-b7web.png" 
+  />
+
+<h2 align="center">
+  Desafio 5 Projetos em 5 Dias
+</h2>
+<p align="center">
+  <img alt="Desafio 5 Projetos em 5 Dias - Projeto 02" 
+       src=".github/projeto-02.jpg"
+       width="200"
+  >
+</p>
+<br>
+
+- Projeto desenvolvido durante o `Desafio 5 Projetos em 5 Dias` com ReactJS, realizado pela plataforna de ensino [B7WEB](https://b7web.com.br/fullstack/?ref=K40921767Y&msclkid=19c576ee8ce315d5acd514754d2e3dc6).
+
+- Agradecimento ao [Bonieky Lacerda](https://www.instagram.com/bonieky/) por compartilhar conteúdo relevante e com qualidade de ensino.
