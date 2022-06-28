@@ -24,6 +24,10 @@
 
 Neste sistema podemos adicionar nossas receitas e despesas ao logo do mês e de outros meses para podermos ter um controle financeiro pessoal e assim analisar onde esta ocorrendo os maiores gastos e entre outras análises.  
 <br>
+Durante seu desenvolvimento pude aprimorar minhas habilidades com ReactJs + Typescript na criação de componentes, hooks, types, validação de formulário e a criação de um helper personalizado com  funções de formatação de datas, filtrar datas e outras manipulações de datas. 
+<br>
+
+- [Visitar site do projeto](https://wanderson-timoteo-minhas-financas.vercel.app/)
 
 ### Tela do Sistema
 
